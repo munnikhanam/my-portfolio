@@ -1,0 +1,215 @@
+/* font */
+/* font-family: "Open Sans", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.btn {
+  padding: 10px 30px 10px 30px;
+  background-color: rgb(253, 110, 10);
+  border-radius: 5px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.para {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+.title {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 61px;
+  letter-spacing: 0%;
+}
+.information {
+  text-align: center;
+  margin: 50px 10px;
+}
+.my-information {
+  text-align: center;
+}
+.main-header {
+  background: rgb(255, 248, 243);
+}
+.header {
+  background-image: url(../images/developer.png), url(../images/header_bg.png);
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
+}
+.banner-part {
+  margin-left: 200px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+nav .logo {
+  font-family: Open Sans;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 61px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+nav .logo span {
+  color: rgb(253, 110, 10);
+}
+nav .item ul li a {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+nav .item ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .item ul li {
+  margin-right: 50px;
+}
+/* nav -part done */
+/* banner start */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.banner .details .name {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 67px;
+  font-weight: 700;
+  line-height: 116px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.banner .details .butoon {
+  display: flex;
+  margin-top: 30px;
+}
+.banner .details .butoon .btn-two {
+  background-color: none;
+  border: 5px;
+  margin-left: 40px;
+}
+.banner .image {
+  width: 100%;
+}
+main {
+  margin: 50px 0;
+}
+.about-me {
+  width: 1140px;
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  background: #fff8f3;
+}
+.about-me-details {
+  width: 827px;
+  margin: 0 auto;
+  padding: 50px 10px;
+}
+.about-me .my-information {
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-information .details {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+/* What i do */
+.my-work {
+  width: 1140px;
+  margin: 0 auto;
+}
+.my-work .work-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.my-work .work-card .card {
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 20px 10px;
+
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+}
+.my-work .work-card .card .card-title {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 10px 0;
+}
+/* footer */
+footer {
+  background: rgb(255, 248, 243);
+  margin-bottom: 50px;
+}
+.connection {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+footer .information {
+  width: 50%;
+  text-align: left;
+}
+footer .information .icon {
+  margin: 20px 0px;
+}
+footer .information .icon a img {
+  margin-right: 20px;
+}
+footer .message {
+  margin-top: 50px;
+}
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 8px 20px;
+  margin-bottom: 40px;
+  border: none;
+  height: 64px;
+  background: rgb(255, 255, 255);
+}
